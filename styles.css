@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&family=Share+Tech&display=swap');
+
+
+
+body{
+    background:none;
+   
+    font-family: 'Share Tech', sans-serif;
+}
+
+.template-home{
+    width:100%;
+    background-color: white;
+    margin: 0 auto;
+    border: solid 7px #4c96d7;
+    border-radius: 10px;
+}
+header{
+    padding:5px;
+}
+header p{
+    display: inline;
+    float: right;
+}
+nav {
+    background-color:#3a3a3a ;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Share Tech', sans-serif;
+ 
+}
+
+nav ul{
+    list-style-type: none;
+    
+    padding: 5px; 
+  
+}
+nav li {
+    display: inline;
+  
+   list-style-type: none;
+}
+
+
+nav ul li a {
+    color: #ffffff ;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px;
+ 
+  
+  
+}
+nav ul li a:hover{
+    background-color: #4c96d7;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+nav ul li a:hover{
+    color: #3a3a3a;
+}
+.content{
+    font-size: 30px;
+    font-weight: 600;
+}
+.car-descritpion{
+    position: relative;
+}
+h3{
+    color: #4c96d7;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: -1em;
+}
+
+.paragraph-description{
+    color: #a6cbeb;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0.2em;
+
+}
+button{
+  margin-left: 5em;
+    background-color: #4c96d7;
+    color: #3a3a3a;
+    height:50px;
+    width:50%;
+    font-size: 18px;
+
+}
+
+#car-reviews{
+    margin-top: 5em;
+}
+li .list-description{
+    list-style-type:circle ;
+    display: block;
+   padding: 10px;
+  
+}
+.ld{
+    padding: 6px;
+}
+#delorean{
+    position: relative;
+    width:100%;
+    margin-top: -1em;
+}
+#upgrade-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+
+.upgrades {
+    background-color: #4c96d7;
+    border: 1px solid #3a3a3a;
+    width: 150px;
+    height: 70px;
+    margin: 20px 0;
+  
+    
+    
+}
+.upgrades img {
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+#upgrade1{
+    grid-column: 1;
+    grid-row: 1;
+}
+#upgrade2{
+    grid-column: 2;
+    grid-row: 1;
+}
+footer {
+    font-size: 14px;
+    border-top: 4px solid #3a3a3a ;
+    text-align: center;
+}
+
+footer p{
+    padding:0px;
+}
+
+@media screen and (min-width: 468px) {
+
+    body{
+        background: center/30% url("/phpmotors/images/site/checkerboard.jpg");
+    
+    }
+
+    .template-home{
+        width:80%;
+    }
+
+    nav{
+        padding: 10px;
+        font-size: 18px;
+    }
+    h3 , .paragraph-description{
+    
+        padding-left: 25px;
+        position: absolute;
+        font-size: 22px;
+    
+    }
+
+    h3{
+        margin-top: 1em;
+    }
+
+    .paragraph-description{
+        margin-top:2em;
+    }
+    
+    
+    button{
+        position: absolute;
+       top: 65%;
+        left: 6%;
+        width:10%;
+      
+    
+    }
+
+    #flex-des{
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 40px;
+        justify-content: space-around;
+        align-items: baseline;
+
+    }
+
+    #flex-des h3{
+        color: #3a3a3a;
+    }
+   .upgrades{
+    width: 175px;
+
+   }
+}
