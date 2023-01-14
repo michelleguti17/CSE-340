@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&family=Share+Tech&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 body{
     background:none;
    
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .template-home{

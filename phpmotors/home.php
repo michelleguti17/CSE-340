@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>PHP MOTORS - HOME</title>
+    <script src='script.js'></script>
 </head>
+
+<body>
 <div class='template-home'> 
 <header>
-<?php require_once $_SERVER['DOCUMENT_ROOT'] .'/phpmotors/snippets/header.php'; ?> 
+    <?php require_once $_SERVER['DOCUMENT_ROOT'] .'/phpmotors/snippets/header.php'; ?> 
 </header>
 <nav><?php require_once $_SERVER['DOCUMENT_ROOT'] .'/phpmotors/snippets/navigation.php'; ?> </nav>
-<body>
+
 
 <main>
 <p class='content'>Welcome to PHP Motors!</p>
@@ -20,8 +23,8 @@
 <div id="car-description">
                 <h3>DMC Delorean</h3>
                 
-                <p class= "paragraph-description">3 Cup holders </br>
-                Superman doors </br>
+                <p class= "paragraph-description">3 Cup holders <br>
+                Superman doors <br>
                 Fuzzy dice!</p>
                 <img id ="delorean" src="/phpmotors/images/delorean.jpg" alt="Car-Delorean">
                 <button type="button">Own Today</button>
@@ -38,7 +41,7 @@
                 </ul>
 </div>
 <div id="car-upgrades">
-<h2>Delorean Upgrades</h3>
+<h2>Delorean Upgrades</h2>
                 <div id="upgrade-img">
              
                     <div class="upgrades" id="upgrade1">
@@ -67,8 +70,7 @@
 </div>
 </main>
 <footer><?php require_once $_SERVER['DOCUMENT_ROOT'] .'/phpmotors/snippets/footer.php'; ?></footer>
-
-</body>
 </div>
-<script src='script.js'></script>
+</body>
+
 </html>
