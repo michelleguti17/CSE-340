@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
 body{
     background:none;
    
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', sans-serif;
 }
 
 .template-home{
     width:100%;
     background-color: white;
     margin: 0 auto;
-    border: solid 7px #4c96d7;
-    border-radius: 10px;
+   
 }
 header{
     padding:5px;
@@ -24,7 +23,7 @@ nav {
     background-color:#3a3a3a ;
     display: flex;
     flex-direction: row;
-    font-family: 'Share Tech', sans-serif;
+ 
  
 }
 
@@ -62,12 +61,22 @@ nav ul li a:hover{
 nav ul li a:hover{
     color: #3a3a3a;
 }
+.temp-title{
+    font-size: 36px;
+}
 .content{
     font-size: 30px;
     font-weight: 600;
+    color: black;
+
+
 }
-.car-descritpion{
+#car-description{
     position: relative;
+    margin-top: 3em;
+}
+.DCM{
+    margin-top: 1.5em;
 }
 h3{
     color: #4c96d7;
@@ -78,20 +87,25 @@ h3{
 }
 
 .paragraph-description{
-    color: #a6cbeb;
+    color: #4c96d7;
     padding-left: 10px;
     position: absolute;
     z-index: 1;
-    margin-top: 0.2em;
+    margin-top: 3.3em;
+
+    font-weight: 800;
 
 }
 button{
   margin-left: 5em;
     background-color: #4c96d7;
-    color: #3a3a3a;
+    color: black;
     height:50px;
     width:50%;
-    font-size: 18px;
+  
+    font-size: 20px;
+
+
 
 }
 
@@ -107,10 +121,11 @@ li .list-description{
 .ld{
     padding: 6px;
 }
+
 #delorean{
     position: relative;
     width:100%;
-    margin-top: -1em;
+    margin-top: 4em;
 }
 #upgrade-img {
     display: grid;
@@ -131,10 +146,17 @@ li .list-description{
     
     
 }
+
+.upgrades a {
+   font-weight: 700;
+   color: #000000;
+font-size: 18px;
+}
 .upgrades img {
-    height: 100%;
+    height: 80%;
     display: block;
     margin: auto;
+    padding: 7px;
 }
 #upgrade1{
     grid-column: 1;
@@ -160,15 +182,17 @@ footer p{
         background: center/30% url("/phpmotors/images/site/checkerboard.jpg");
     
     }
-
-    .template-home{
+  .template-home{
         width:80%;
+        border: solid 7px #4c96d7;
+        border-radius: 10px;
     }
 
     nav{
-        padding: 10px;
-        font-size: 18px;
+    
+        font-size: 20px;
     }
+ 
     h3 , .paragraph-description{
     
         padding-left: 25px;
@@ -177,19 +201,17 @@ footer p{
     
     }
 
-    h3{
-        margin-top: 1em;
-    }
+    
 
     .paragraph-description{
-        margin-top:2em;
+        margin-top:2.5em;
     }
     
     
     button{
         position: absolute;
-       top: 65%;
-        left: 6%;
+       top: 25%;
+        left: -5%;
         width:10%;
       
     

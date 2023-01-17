@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
     <title>PHP MOTORS - HOME</title>
     <script src='script.js'></script>
 </head>
 
 <body>
+
 <div class='template-home'> 
 <header>
     <?php require_once $_SERVER['DOCUMENT_ROOT'] .'/phpmotors/snippets/header.php'; ?> 
@@ -18,12 +20,13 @@
 
 
 <main>
-<p class='content'>Welcome to PHP Motors!</p>
-
 <div id="car-description">
-                <h3>DMC Delorean</h3>
-                
-                <p class= "paragraph-description">3 Cup holders <br>
+<h3 class='content'>Welcome to PHP Motors!</h3>
+
+
+
+            <h3 class="DCM">DMC Delorean</h3>   
+            <p class= "paragraph-description">3 Cup holders <br>
                 Superman doors <br>
                 Fuzzy dice!</p>
                 <img id ="delorean" src="/phpmotors/images/delorean.jpg" alt="Car-Delorean">
@@ -31,7 +34,7 @@
 </div> 
 <div id =flex-des>
 <div id="car-reviews">
-                <h2>DMC Delorean Reviews</h2>
+                <h2 class="titleRe">DMC Delorean Reviews</h2>
                 <ul class= "list-description">
                     <li class="ld">"So fast its almost like traveling in time." (4/5)</li>
                     <li class="ld">"Coolest ride on the road." (4/5)</li>
@@ -41,7 +44,7 @@
                 </ul>
 </div>
 <div id="car-upgrades">
-<h2>Delorean Upgrades</h2>
+<h2 class="titleRe">Delorean Upgrades</h2>
                 <div id="upgrade-img">
              
                     <div class="upgrades" id="upgrade1">
